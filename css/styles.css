@@ -486,6 +486,15 @@ a:hover, a:focus {
 /* ==========================================================================
 Buttons
 ========================================================================== */
+
+#center-btn {
+    margin: 6% 0 0 17%;
+}
+
+#center-btn2 {
+    margin: 6% 0 0 25%;
+}
+
 .use-btn {
     display: inline-block;
     margin: 0 10px 10px 0;
@@ -641,6 +650,10 @@ header i {
     margin-left: 5px
 }
 
+.hero-logo {
+    padding-left: 75%;
+}
+
 /* ==========================================================================
 Video
 ========================================================================== */
@@ -693,7 +706,7 @@ Features Slider
 .features-bg {
     position: relative;
     min-height: 400px;
-    background: url('http://treeservicewakeforest.com/wp-content/gallery/tree-removal/andrews-tree-service.jpg') no-repeat center center;
+    background: url('../img/truck.jpg') no-repeat center center;
     background-size: cover;
 }
 .features-img {
@@ -827,11 +840,11 @@ Showcase
 }
 .device {
     position: absolute;
-    top: -60px;
+    top: -130px;
     left: 20%;
     min-height: 676px;
     width: 359px;
-    background: url('../img/iphone-skeleton.png') no-repeat center center;
+    background: url('../img/logo2.png') no-repeat center center;
 }
 .device-content {
     position: absolute;
@@ -863,7 +876,7 @@ Showcase
 Screenshots Intro
 ========================================================================== */
 .screenshots-intro {
-    padding: 170px 0 100px 0;
+    padding: 75px 0 100px 0;
     background-color: #eceee9;
 }
 .screenshots-intro h1 {
@@ -899,6 +912,7 @@ Screenshots
 .screenshots figure img {
     width: 100%;
     height: 100%;
+    background: cover;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
