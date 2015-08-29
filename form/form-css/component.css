@@ -68,7 +68,7 @@
 	display: block;
 	margin-bottom: 2.5em;
 	color: #2e3429;
-	content: 'Thank you! Take a screenshot of this form (command + shift + 3 on a Mac, alt + Print Screen on Windows), hit Submit and attach it to your email to send it our way.';
+	content: "REVIEW + SUBMIT.. WE'LL SEND YOU AN EMAIL CONFIRMATION";
 	font-weight: 400;
 	font-size: 1.85em;
 }
@@ -314,6 +314,7 @@ button.fs-continue,
 	color: rgba(34,37,30,1);
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
+	font-size: 1.2em;
 }
 
 .fs-form-overview .fs-fields > li .fs-radio-custom span {
@@ -321,7 +322,7 @@ button.fs-continue,
 }
 
 .fs-form-overview .fs-fields > li .fs-radio-custom span {
-	font-size: 75%;
+	font-size: 95%;
 }
 
 .fs-fields > li .fs-radio-custom label {
