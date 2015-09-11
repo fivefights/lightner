@@ -92,7 +92,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 		if (target.length) {
 			$('html,body').animate({
 				scrollTop: target.offset().top
-			}, 2000);
+			}, 1000);
 			return false;
 		}
 	}
